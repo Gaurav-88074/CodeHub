@@ -7,6 +7,7 @@ carry = (min-v)//60
 
 hrs = line1[0]+line2[0]
 hrs+=carry
+hrs%=24
 if(hrs<10):
     print("0"+str(hrs),v)
 else:
