@@ -2,6 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
+
 vector<int> compute(vector<int> &array){
     sort(array.begin(),array.end());
     for(int i =1 ; i<=array.size() ;i++ ){

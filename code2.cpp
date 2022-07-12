@@ -1,37 +1,33 @@
 #include<iostream>
+#include<vector>
 using namespace std;
-void swap(int* &array,int i,int j){
+void swap(vector<int> &array,int i,int j){
     int temp = array[i];
     array[i] = array[j];
     array[j] = temp;
 }
-void display(int* &array,int size){
+void display(vector<int> &array,int size){
     for (int i = 0; i < size; i++){
         cout<<array[i]<<" ";
     }
     cout<<endl;
     
 }
-void permutation(int* &array,int pos,int size){
+void permutation(vector<int> &array,int pos,int size){
     if(pos==size){
         display(array,size);
         return;
     }
-    for (int i = pos; i < size; i++){
-        swap(array,i,i+1);
+    for (int i = pos; i <size; i++){
+        // swap(array,i,pos);
         permutation(array,i+1,size);
-
-        //backtraking step
-        //reverting changes
-        swap(array,i,i+1);
+        // swap(array,i,pos);
     }
     
 }
 int main(){
-    int arr[] = {1,2,3};
-    int size = 3;
-    int * array = arr;
-
+    vector<int> array = {1,2,3,4};
+    int size = array.size();
     permutation(array,0,size);
 
     return 0;
