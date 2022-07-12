@@ -1,7 +1,7 @@
-title1
+Is telehealth the future of healthcare? - Blackcoffer Insights
 =====
-heading1.1
-heading1.2
+Internet Connectivity:
+Growing healthcare startups in India
 =====
-paragraph1.1
-paragraph1.2
+Covid-19 has paved the way for advancements in Telehealth services, which have currently become a significant component of the healthcare industry to cope with the social distancing and lockdown measures, people adapted to telehealth services to avail doctor expertise.
+The rapid growth in Digital infrastructure has led to a booming increase in the number of healthcare startups present in India. These start-ups are dedicated to the development of disease tracking and prevention tools. Since most remote areas do not have proper medical facilities or are unable to afford quality healthcare services, these start-ups have developed tools that enable the in-need patients to connect with far-flung doctors to receive affordable medical advice without incurring huge transportation costs. Start-ups such as Practo and 1 MG provide delivery of medicines that are at times not easily available.

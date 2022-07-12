@@ -2,7 +2,11 @@
 from code9 import insertDataIntoTextFiles
 
 dummy_data = [
-    ["title1", ["heading1.1","heading1.2"],["paragraph1.1","paragraph1.2"]],
+    [
+        "title1",
+        ["heading1.1"  ,"heading1.2"],
+        ["paragraph1.1","paragraph1.2"]
+    ],
 
     ["title2", ["heading2.1","heading2.2"],["paragraph2.1","paragraph2.2"]],
 
